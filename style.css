@@ -4,4 +4,31 @@
     box-sizing: border-box;
 }
 
-h1 { color: red;}
+/* ------ Temporary styles for structural html ------- */
+
+*{
+    padding: 0.5rem;
+    border: 1px solid rgb(240,240,240);
+}
+
+html { border: none;}
+body { border: none;}
+
+/* Image styles */
+.bg-image {
+    background-image: url('/images/the-sleep-co-bed.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+/* ------ Universal styles and utility classes ------- */
+
+.padded     {padding: 5%;}
+.padded-sm  {padding: 1rem;}
+/* --- Wen you know you will only use 1 property/value combination, OK to leave in one line */
+
+.bg-dark {
+    background-color: #192b37;
+    color: white;
+}
+
