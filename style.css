@@ -28,7 +28,7 @@ body {
 }
 .padded     {padding: 5%;  }
 .padded-sm  {padding: 1rem;}
-.padded-lg  {padding: 10%;  }
+.padded-lg  {padding: 10%; }
 /* --- When you know you will only use 1 property/value combination, OK to leave in one line */
 
 .bg-dark {
