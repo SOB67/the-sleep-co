@@ -25,16 +25,25 @@
 <!---------- This is the body of our website -------->
 
 <body>
-    <nav>
-        <a href="/index.html"> Home </a>
-        <a href="/about.html"> About </a>
-        <a href="/contact.html"> Contact </a>
-        <a href="/products.html"> Products </a>
-    </nav>
+    
+    <!----------------- This is the header ------------------>
+    <header class="grid-spaceBetween-middle">
+        <nav class="col-3 padded-sm text-center">
+            <a href="/index.html" class="margin-r"> Home </a>
+            <a href="/about.html"> About </a>
+        </nav>
+        <div class="col-5 text-center">
+            <h1> the <span class="featured-text">sleep </span> company </h1>
+        </div>
+        <nav class="col-3 text-center padded-sm">
+            <a href="/products.html" class="margin-r"> Products </a>
+            <a href="/contact.html"> Contact </a>            
+        </nav>
+    </header>
     
 
     <!--------------------------- This is our header banner--------------------------->
-    <header class="padded grid text-center tall-100">
+    <section class="banner padded grid text-center tall-100">
         <div class="col-12-middle">
         <h3 class="font-weight-extra-bold editable">
             <span class="featured-text">contact </span> us today
@@ -44,7 +53,7 @@
         </h1>
         <!-- Note that even though the h3 is bigger in website, the h1 represents the important content of the website, so is given a higher priority heading.  Size is irrelevant, content is -->
         </div>
-    </header>
+    </section>
 
 
 

@@ -29,6 +29,10 @@ body {
 .padded     {padding: 5%;  }
 .padded-sm  {padding: 1rem;}
 .padded-lg  {padding: 10%; }
+
+.margin-r   {margin-right: 1rem;}
+.margin-l   {margin-left: 1rem; }
+
 /* --- When you know you will only use 1 property/value combination, OK to leave in one line */
 
 .bg-dark {
@@ -109,15 +113,19 @@ a:hover {
 
 /* ---------------header and footer styles --------------- */
 
-header {
+.banner {
     background-image: url('/images/the-sleep-co-bed.jpg');
     background-size: cover;
     background-position: center;
 }
 
-header h3 {
+.banner h3 {
     font-size: 5.5rem;
     line-height: 1;
+}
+
+header h1 { 
+    font-size: 3rem;
 }
 
 footer a {
